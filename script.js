@@ -14,7 +14,6 @@ function showError(input, message) {
 function showSuccess(input) {
     let formControl = input.parentElement;
     formControl.className = 'form-control success';
-
 }
 
 function checkEmail(input) {
